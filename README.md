@@ -43,6 +43,7 @@ python main.py
 Run the following command in your terminal to compile the script into a single executable file without a console window:
 
 ```bash
+pip install pyinstaller
 python -m PyInstaller --onefile --noconsole main.py
 
 ```
