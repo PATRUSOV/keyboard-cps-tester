@@ -22,7 +22,7 @@ cd keyboard-cps-tester
 ### 2. Install Dependencies
 
 ```bash
-pip install matplotlib pyinstaller
+pip install matplotlib
 
 ```
 
