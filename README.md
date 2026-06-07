@@ -15,7 +15,7 @@ cd keyboard-cps-tester
 ### 2. Install Dependencies
 
 ```bash
-pip install matplotlib
+pip install matplotlib pyinstaller
 
 ```
 
@@ -35,3 +35,16 @@ python main.py
 3. Click **START**.
 4. Press the selected keys.
 5. Click **Show CPS Dynamics** after the test completes to view the graph.
+
+---
+
+# Building to Executable (.exe)
+
+Run the following command in your terminal to compile the script into a single executable file without a console window:
+
+```bash
+python -m PyInstaller --onefile --noconsole main.py
+
+```
+
+The compiled binary will be located in the `dist/` directory.
