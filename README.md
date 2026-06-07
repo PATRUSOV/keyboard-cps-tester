@@ -1,8 +1,15 @@
-# Installation and Setup
+# Keyboard CPS Tester
+
+<p align="center">
+  <img src="images/screenshot-2.png">
+</p>
+
+
+## 🚀 Installation & Setup
 
 ### Prerequisites
 
-* Python 3.8+
+* **Python 3.8+**
 
 ### 1. Clone the Repository
 
@@ -28,7 +35,7 @@ python main.py
 
 ---
 
-# Usage
+## 🕹️ Usage Guide
 
 1. Enter two target keys in the **Keys** input fields.
 2. Select the test duration from the **Time** dropdown.
@@ -38,7 +45,7 @@ python main.py
 
 ---
 
-# Building to Executable (.exe)
+## 📦 Building to Executable (.exe)
 
 Run the following command in your terminal to compile the script into a single executable file without a console window:
 
@@ -48,4 +55,4 @@ python -m PyInstaller --onefile --noconsole main.py
 
 ```
 
-The compiled binary will be located in the `dist/` directory.
+> **Note:** The compiled binary will be located in the `dist/` directory.
